@@ -1,0 +1,113 @@
+<!doctype html>
+ <html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewpoint" content="width=device-width,initial-scale=1.0 ">
+
+      <!-- ===== fontawesome Icon CSS ===== -->
+    <script src="https://kit.fontawesome.com/fa389c84ed.js" crossorigin="anonymous"></script>
+
+   <!-- ===== CSS ===== -->
+   //<link rel="stylesheet" href="sign.in_log.incss">
+
+   <title>Log-in and Sign-in form</title>
+
+  </head>
+  <body>
+
+   <div class="container">
+     <div class="forms">
+       <div class="form login">
+
+         <span class="title">Login</span>
+
+         <form action="#">
+           
+          <div class="input-field">
+          <label></label>
+          <input type="text" placeholder="Enter your Username" id="username"required>
+          <i class="fa-solid fa-circle-check" id="go"></i>
+          <i class="fa-solid fa-circle-exclamation" id="stop"></i>
+          <small>Error message</small>
+          </div>
+
+          <div class="input-field"> 
+          <label></label>
+          <input type="password" placeholder="Enter your Password" id="password"required>
+           <i class="fa-solid fa-circle-check" id="go"></i>
+           <i class="fa-solid fa-circle-exclamation" id="stop"></i>
+           <i class="fa-solid fa-eye-slash" id="hide"></i>
+           <i class="fa-solid fa-eye" id="show"></i>
+           <small>Error message</small>
+           </div> 
+
+           <div class="checkbox-text">
+             <div class="checkbox-content">
+              <input type="checkbox" id="logCheck">
+              <label for="logcheck" class="text">Remember me</label>
+             </div>
+
+					<a href="#" class="text">Forget Password?</a>
+           </div>
+
+  				<div class="input-field button">
+              <input type="button" value="Login Now" id="button">
+            </div>
+
+         </form>
+       
+			<div class="login-signup">
+				<span class="text">Don't have a account?
+				<a href="#" class="text signup-text">Sign-Up</a>
+		  		</span>
+    		</div>
+       </div> 
+
+			<!-- Registration Form -->
+       <div class="form register">
+         <span class="title">Sign-in</span>
+
+         <form action="#">
+           
+          <div class="input-field">
+          <label></label>
+          <input type="text" placeholder="Enter your Username" id="username"required>
+          <i class="fa-solid fa-circle-check" id="go"></i>
+          <i class="fa-solid fa-circle-exclamation" id="stop"></i>
+          <small>Error message</small>
+          </div>
+
+          <div class="input-field">
+          <label></label>
+          <input type="text" placeholder="Enter your Email-id" id="Email-id"required>
+          <i class="fa-solid fa-circle-check" id="go"></i>
+          <i class="fa-solid fa-circle-exclamation" id="stop"></i>
+          <small>Error message</small>
+          </div>
+
+          <div class="input-field"> 
+          <label></label>
+          <input type="password" placeholder="Enter your Password" id="password"required>
+           <i class="fa-solid fa-circle-check" id="go"></i>
+           <i class="fa-solid fa-circle-exclamation" id="stop"></i>
+           <i class="fa-solid fa-eye-slash" id="hide"></i>
+           <i class="fa-solid fa-eye" id="show"></i>
+           <small>Error message</small>
+           </div> 
+
+          <div class="input-field"> 
+          <label></label>
+          <input type="password" placeholder="Enter your Confirmation Password" id="confirmation password"required>
+           <i class="fa-solid fa-circle-check" id="go"></i>
+           <i class="fa-solid fa-circle-exclamation" id="stop"></i>
+           <i class="fa-solid fa-eye-slash" id="hide"></i>
+           <i class="fa-solid fa-eye" id="show"></i>
+           <small>Error message</small>
+           </div> 
+         </form>
+       </div> 
+    </div> 
+   </div>
+  </body>
+ </html>
